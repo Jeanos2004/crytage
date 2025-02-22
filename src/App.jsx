@@ -58,8 +58,10 @@ const App = () => {
           shiftedChar = String.fromCharCode(((code - 48 - key + 10) % 10) + 48);
         }
         result += shiftedChar;
-      } else if (char === ' ') {
-        result += '';
+      } else if (char === ' ' && operation=== 'encrypt') {
+        result += '-';
+      }else if(char === '-' && operation=== 'decrypt') {
+        result += ' ';
       } else {
         result += char;
       }

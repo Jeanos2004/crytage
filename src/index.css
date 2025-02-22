@@ -14,7 +14,7 @@ body {
   
   width: 100%;
   max-width: 1200px;
-  height: 80vh;
+  height: 90vh;
   background: white;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -91,7 +91,7 @@ button:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow-y: scroll;
   scrollbar-width: thin;
-  height: 100px;
+  height: 150px;
 }
 
 .history h2 {
@@ -138,33 +138,13 @@ button:hover {
   font-size: 0.9rem;
   word-wrap: break-word;
   white-space: collapse;
-  width: 200%;
+  width: 100%;
 }
 .history li span strong {
   font-size: 0.8rem;
 
 }
-/* Conteneur de l'historique */
-.history-container {
-  margin-top: 20px;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow-y: scroll;
-  height: 100px; /* Hauteur par défaut */
-  transition: height 0.3s ease;
-}
 
-/* Historique en pleine hauteur */
-.history-container.full-height {
-  height: calc(100vh - 20px); /* Prend toute la hauteur de l'interface */
-  margin-top: 0;
-  border-radius: 0;
-  overflow: scroll;
-  scrollbar-width: thin;
-}
 .copy-button{
   
   height: 30px;
@@ -174,9 +154,6 @@ button:hover {
 
 /* En-tête de l'historique */
 .history-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -215,6 +192,8 @@ button:hover {
   
   
 }
+
+
 
 @keyframes fadeIn {
   from {
