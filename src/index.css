@@ -267,6 +267,7 @@ button:hover {
   .hero-section h1 {
     font-size: 1.8rem;
   }
+  
 
   input, textarea {
     width: 94%;
@@ -277,6 +278,10 @@ button:hover {
   .app-container {
     height: auto;
     margin: 20px 0;
+  }
+  .history{
+    
+    background-color: #f1fbf1;
   }
 
   
